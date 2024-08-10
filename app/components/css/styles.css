@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.placeholder-custom-gray::placeholder {
+  @apply text-gray-400;
+}
+
+
+
+.placeholder-sm::placeholder {
+  @apply text-xs;
+}
+
+.placeholder-lg::placeholder {
+  @apply text-lg;
+}
+
+.placeholder-margin::placeholder{
+    @apply p-5;
+}
